@@ -1,0 +1,23 @@
+{
+  "name": "bot-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node index.js",
+    "start": "supervisor -w . index.js"
+  },
+  "author": "DustLover_",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "koa": "^2.13.0",
+    "koishi": "^2.4.0",
+    "koishi-adapter-cqhttp": "^1.0.6",
+    "pako": "^1.0.11",
+    "supervisor": "^0.12.0",
+    "ws": "^7.3.1",
+    "zlib": "^1.0.5"
+  }
+}
